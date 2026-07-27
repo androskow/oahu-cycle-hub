@@ -1,0 +1,67 @@
+[
+  {
+    "id": "mauka",
+    "name": "Mauka Cycling Club",
+    "location": "Oahu (Waipahu / Central & Windward)",
+    "type": ["Road", "Group Rides"],
+    "description": "Local Oahu club focused on community rides, fitness, and aloha. Sunday rides and weekday options. Strong emphasis on welcoming new riders.",
+    "website": "",
+    "facebook": "",
+    "strava": "",
+    "contact": "via local rides or club organizers",
+    "meetingPoint": "Waipahu area starts common",
+    "featured": true
+  },
+  {
+    "id": "hbl",
+    "name": "Hawai'i Bicycling League (HBL)",
+    "location": "Statewide (strong Oahu presence)",
+    "type": ["Advocacy", "Group Rides", "Events", "Education"],
+    "description": "Hawaii's primary bicycle advocacy and education organization. Runs the Honolulu Century Ride, weekly group rides, BikeEd programs, and infrastructure advocacy.",
+    "website": "https://hbl.org/",
+    "facebook": "",
+    "strava": "",
+    "contact": "hbl.org",
+    "meetingPoint": "Various (Kapiolani Park, Sheridan Park, etc.)",
+    "featured": true
+  },
+  {
+    "id": "occ",
+    "name": "Oahu Cycling Club (OCC)",
+    "location": "Oahu",
+    "type": ["Group Rides", "Social"],
+    "description": "Active Facebook-based group for coordinating times, locations, coffee jams, and small group rides across Oahu.",
+    "website": "",
+    "facebook": "https://www.facebook.com/groups/738139046803120/",
+    "strava": "",
+    "contact": "Facebook group",
+    "meetingPoint": "Varies by ride",
+    "featured": false
+  },
+  {
+    "id": "tradewind",
+    "name": "Tradewind Cycling Team",
+    "location": "Oahu / Hawaii",
+    "type": ["Racing", "Team", "Road"],
+    "description": "Competitive cycling team with race calendar, training rides, and events across the islands.",
+    "website": "https://tradewindcyclingteam.com/",
+    "facebook": "",
+    "strava": "",
+    "contact": "tradewindcyclingteam.com",
+    "meetingPoint": "Varies",
+    "featured": false
+  },
+  {
+    "id": "hcc",
+    "name": "Hawaii Cycling Club",
+    "location": "Primarily Big Island (Hilo / Kona) with some statewide events",
+    "type": ["Road", "Group Rides", "Racing"],
+    "description": "Long-standing club with weekly group rides and organized events. Strong presence on Hawai'i Island.",
+    "website": "http://www.hawaiicyclingclub.com/",
+    "facebook": "",
+    "strava": "",
+    "contact": "hawaiicyclingclub.com",
+    "meetingPoint": "Hilo / Kona areas",
+    "featured": false
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "id": "hcr-2026",
+    "title": "2026 Honolulu Century Ride",
+    "date": "2026-09-27",
+    "startTime": "Early morning",
+    "location": "Kapiʻolani Park, Honolulu",
+    "type": "Century / Supported Ride",
+    "distance": "Multiple options up to 100+ miles",
+    "club": "Hawai'i Bicycling League",
+    "description": "Hawaii's largest cycling event. Car-free sections of Kaiwi Coast, backroads of Waimānalo, and the windward coast. Thousands of riders.",
+    "link": "https://hbl.org/hcr",
+    "featured": true
+  },
+  {
+    "id": "mauka-sunday-aug",
+    "title": "Mauka Sunday Group Ride",
+    "date": "2026-08-02",
+    "startTime": "07:00",
+    "location": "Waipahu start (typical)",
+    "type": "Group Ride",
+    "distance": "30-50 miles (flexible)",
+    "club": "Mauka Cycling Club",
+    "description": "Weekly Sunday community ride. All levels welcome. Pace groups form naturally. Coffee stop common.",
+    "link": "",
+    "featured": true
+  },
+  {
+    "id": "hbl-coffee-jam",
+    "title": "HBL Sunday Morning Coffee Jam",
+    "date": "2026-08-02",
+    "startTime": "Morning",
+    "location": "Oahu (check HBL listings)",
+    "type": "Group Ride / Social",
+    "distance": "Varies",
+    "club": "Hawai'i Bicycling League",
+    "description": "Regular Sunday social ride + coffee. Great for newer riders and community.",
+    "link": "https://hbl.org/group-ride-listings/",
+    "featured": false
+  },
+  {
+    "id": "cycle-summer",
+    "title": "Cycle the Summer at Sheridan Park",
+    "date": "2026-07-18",
+    "startTime": "Morning",
+    "location": "Sheridan Community Park, Honolulu",
+    "type": "Community / Keiki / Clinic",
+    "distance": "Short loops + clinic",
+    "club": "Hawai'i Bicycling League",
+    "description": "Keiki biking opportunities, hands-on bicycle repair clinic, and park cleanup. Family-friendly.",
+    "link": "https://hbl.org/cyclethesummer/",
+    "featured": false
+  },
+  {
+    "id": "mauka-weekday",
+    "title": "Mauka Weekday Evening Spin",
+    "date": "2026-07-29",
+    "startTime": "17:30",
+    "location": "Central Oahu",
+    "type": "Group Ride",
+    "distance": "20-35 miles",
+    "club": "Mauka Cycling Club",
+    "description": "Casual weekday evening ride. Good for after-work fitness and social miles.",
+    "link": "",
+    "featured": false
+  },
+  {
+    "id": "occ-coffee",
+    "title": "OCC Coffee Jam / Small Group",
+    "date": "2026-08-03",
+    "startTime": "07:30",
+    "location": "TBD (posted in Facebook group)",
+    "type": "Social / Group Ride",
+    "distance": "Varies",
+    "club": "Oahu Cycling Club",
+    "description": "Informal meetup coordinated via the Oahu Cycling Club Facebook group. Check the group for latest start location.",
+    "link": "https://www.facebook.com/groups/738139046803120/",
+    "featured": false
+  }
+]
