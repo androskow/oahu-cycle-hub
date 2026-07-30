@@ -10,30 +10,36 @@ export default function Home() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden border-b border-cyan-900/40 bg-gradient-to-br from-[#0a1628] via-[#0c1e36] to-[#0a2a3d]">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-cyan-500/15 via-transparent to-transparent" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_left,_var(--tw-gradient-stops))] from-orange-500/10 via-transparent to-transparent" />
-        <div className="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24">
+      <section className="relative overflow-hidden border-b border-cyan-900/40">
+        {/* Background photo */}
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/hero-bikes.jpg')" }}
+        />
+        {/* Dark overlay so text stays readable */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0a1628]/90 via-[#0a1628]/75 to-[#0a1628]/50" />
+        <div className="absolute inset-0 bg-[#0a1628]/40" />
+        <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
           <p className="mb-3 text-sm font-medium uppercase tracking-wider text-orange-400">
             Oʻahu · Hawaiʻi
           </p>
-          <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-5xl">
+          <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-5xl drop-shadow-lg">
             Find your next ride.
           </h1>
-          <p className="mt-4 max-w-xl text-lg text-cyan-100/90">
+          <p className="mt-4 max-w-xl text-lg text-cyan-50/95 drop-shadow">
             One place for Oahu cycling clubs, group rides, and events.
             Built by riders, for riders — with aloha.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               href="/events"
-              className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-[#0a1628] transition hover:bg-orange-400"
+              className="rounded-lg bg-orange-500 px-5 py-2.5 text-sm font-semibold text-[#0a1628] transition hover:bg-orange-400 shadow-lg"
             >
               Browse Events
             </Link>
             <Link
               href="/clubs"
-              className="rounded-lg border border-cyan-600/50 bg-cyan-950/50 px-5 py-2.5 text-sm font-semibold text-cyan-50 transition hover:bg-cyan-900/60"
+              className="rounded-lg border border-cyan-300/40 bg-cyan-950/60 px-5 py-2.5 text-sm font-semibold text-cyan-50 transition hover:bg-cyan-900/70 backdrop-blur-sm"
             >
               View Clubs
             </Link>
